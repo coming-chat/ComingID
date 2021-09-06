@@ -8,7 +8,7 @@ import "https://github.com/0xcert/ethereum-erc721/src/contracts/ownership/ownabl
 /**
  * @dev This is an example contract implementation of NFToken with metadata extension.
  */
-contract ComingID is
+contract ComingPass is
   NFTokenMetadata,
   Ownable
 {
@@ -18,8 +18,8 @@ contract ComingID is
    */
   constructor()
   {
-    nftName = "Coming Card";
-    nftSymbol = "CID";
+    nftName = "Coming Pass";
+    nftSymbol = "CP";
   }
 
   /**
