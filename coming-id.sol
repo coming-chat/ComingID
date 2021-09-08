@@ -18,8 +18,8 @@ contract ComingPass is
    */
   constructor()
   {
-    nftName = "Coming Pass";
-    nftSymbol = "CP";
+    nftName = "Coming Elements";
+    nftSymbol = "CE";
   }
 
   /**
